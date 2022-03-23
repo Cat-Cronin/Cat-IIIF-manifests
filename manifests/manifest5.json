@@ -1,0 +1,169 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Cat-Cronin.github.io/Cat-IIIF-manifests/manifests/manifest5.json",
+  "@type" : "sc:Manifest",
+  "label" : "Favourite kimino designs from Digital Store ORB.40/1208, Kuretake / Ichida Yaichirō, British Library",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Yaichirō Ichida"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "Kyōto, circa 1902",
+      "@language" : "en"
+    }, {
+      "@value" : "Kyōto, environ 1902",
+      "@language" : "fr"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Four kimino designs from a Japanese Design Book on textile designs",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "The British Library",
+  "sequences" : [ {
+    "@id" : "http://c69dced3-504e-4c54-95b8-d697fdab789b",
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "viewingDirection" : "right-to-left",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://fb1a4e3f-4a13-4335-bf7d-33ee59a62e59",
+      "@type" : "sc:Canvas",
+      "label" : "Red pavillion kimono",
+      "height" : 9370,
+      "width" : 6152,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f19448f7-8f9b-444f-93f0-ae2a29b51268",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000014/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000014",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 9370,
+          "width" : 6152
+        },
+        "on" : "http://fb1a4e3f-4a13-4335-bf7d-33ee59a62e59"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9f0e6150-99bf-4f4e-a15c-8d6fb0a8ac95",
+      "@type" : "sc:Canvas",
+      "label" : "Light green waterfall kimono",
+      "height" : 9545,
+      "width" : 6134,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://129936dd-13cd-4c98-93b0-0e4b97b8ac57",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000015",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 9545,
+          "width" : 6134
+        },
+        "on" : "http://9f0e6150-99bf-4f4e-a15c-8d6fb0a8ac95"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://10f3e00c-c5c5-49ae-b2d5-25e41d9389f5",
+      "@type" : "sc:Canvas",
+      "label" : "Flower basket kimono",
+      "height" : 9415,
+      "width" : 6143,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a98a1a70-c688-4e10-9992-626a30aa4606",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x00005f/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x00005f",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 9415,
+          "width" : 6143
+        },
+        "on" : "http://10f3e00c-c5c5-49ae-b2d5-25e41d9389f5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4f6b822d-6302-4c17-b695-e4e8c677a797",
+      "@type" : "sc:Canvas",
+      "label" : "Animal kimono",
+      "height" : 9564,
+      "width" : 6384,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://806187eb-8351-4dc7-b057-11fb9cb69e2c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000060/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101872604.0x000060",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 9564,
+          "width" : 6384
+        },
+        "on" : "http://4f6b822d-6302-4c17-b695-e4e8c677a797"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://fb1a4e3f-4a13-4335-bf7d-33ee59a62e59" ]
+  } ]
+}
