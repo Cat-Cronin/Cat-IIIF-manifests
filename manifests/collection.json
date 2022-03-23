@@ -1,0 +1,13 @@
+{
+  "id" : "https://Cat-Cronin.github.io/Cat-IIIF-manifests/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Cat-Cronin/Cat-IIIF-manifests project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Cat-Cronin.github.io/Cat-IIIF-manifests/manifests/manifest5.json",
+    "label" : "Favourite kimino designs from Digital Store ORB.40/1208, Kuretake / Ichida Yaichirō, British Library"
+  } ]
+}
